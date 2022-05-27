@@ -1,0 +1,12 @@
+<!-- footer -->
+<div class="container-fluid  p-3 text-center" style="  background-image: linear-gradient(#06beb6, #48b1bf) !important;">
+
+    <div class="text-center p-3">
+        venk2022 Copyright
+        <a class="text-white" href="https://mdbootstrap.com/">Webdevelopment</a>
+    </div>
+
+</div>
+<script src="../../js/index.js" style="text-decoration:none;"></script>
+</body>
+</html>
