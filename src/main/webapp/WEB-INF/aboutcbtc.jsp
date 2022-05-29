@@ -1,3 +1,4 @@
+<%@ include file="common/header.jspf" %>
 <!-- conent -->
 <div class="container-fluid  p-3 ">
     <h1 class="text-center"><b>About CBTC</b></h1>
@@ -56,7 +57,7 @@
     </div>
     <div class="container text-center">
         <img src="img/mygov-2.jpg">
-    </div>
+    </div><br>
     <div class="container text-left">
         <p>Bamboo signifies passing on the inheritance of a environmentally cleaner and a healthy greener world to
             our future generations. The tall wonder grass keeps on generating solutions to our ever increasing needs
@@ -76,3 +77,4 @@
         </p>
     </div>
 </div>
+<%@ include file="common/footer.jspf" %>

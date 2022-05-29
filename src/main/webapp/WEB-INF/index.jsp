@@ -49,11 +49,11 @@
 </div>
 
 <!-- about -->
-<div class="container-fluid p-3 ">
+<div class="container-fluid p-3 " >
     <div class="container text-center">
         <h4><b>Welcome to NECBDC</b></h4>
-        <p style="justify-content:center;">${para}</p>
-        <a href="aboutcbtc.html" style="text-decoration:none;">Read More...</a>
+        <p style="justify-content:center;" >${para}</p>
+        <a href="aboutcbtc" style="text-decoration:none;">Read More...</a>
     </div>
 </div>
 

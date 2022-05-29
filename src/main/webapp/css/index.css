@@ -49,3 +49,11 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     margin: auto;
 }
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border-style: hidden!important;
+}
