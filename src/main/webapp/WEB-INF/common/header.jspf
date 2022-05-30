@@ -29,7 +29,7 @@
         </div>
     </div>
     <div>
-        <h6>UNDER NORTH EASTERN COUNCIL, MINISTRY OF DONER</h6>
+        <h6> <img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/40/000000/external-bamboo-china-icongeek26-flat-icongeek26.png"/> UNDER NORTH EASTERN COUNCIL, MINISTRY OF DONER </h6>
     </div>
 </div>
 
@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="aboutcbtc.jsp" data-bs-toggle="dropdown">
@@ -62,16 +62,13 @@
                             <a class="nav-link" href="governing">GOVERNING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="feedback">FEEDBACK</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="cbtcstaff">CBTC STAFF</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="service">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="consultacy">CONSULTACY</a>
+                            <a class="nav-link" href="consultancy">CONSULTANCY</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="righttoinformation">RIGHT TO INFORMATION</a>
@@ -91,7 +88,7 @@
                     <a class="nav-link" href="resource">RESOURCE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contract">CONTRACT</a>
+                    <a class="nav-link" href="contract">CONTACT</a>
                 </li>
             </ul>
             <form class="d-flex">

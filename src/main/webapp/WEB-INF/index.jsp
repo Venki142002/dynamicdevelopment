@@ -45,44 +45,47 @@
     </div>
 
 
-
 </div>
 
 <!-- about -->
-<div class="container-fluid p-3 " >
+<div class="container-fluid p-3 ">
     <div class="container text-center">
         <h4><b>Welcome to NECBDC</b></h4>
-        <p style="justify-content:center;" >${para}</p>
+        <p style="justify-content:center;">${para}</p>
         <a href="aboutcbtc" style="text-decoration:none;">Read More...</a>
     </div>
 </div>
 
 <!-- image2 -->
-<div class="container-fluid  p-3 text-center">
-    <div class="container text-center">
-        <h1>What We Do?</h1>
-    </div><br>
-    <div class="container p-2  text-center row " id="home2image">
 
-        <div class="col-md-4 mt-3 col-lg-3">
-            <b>Consultancy</b>
-            <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
-            <p>CBTC provides consultancy to entrepreneurs and organizations.</p>
+    <div class="container-fluid  p-3 text-center">
+        <div class="container text-center">
+         <h1 >What We Do?</h1>
         </div>
-        <div class="col-md-4 mt-3 col-lg-3"> <b>Promotions</b>
-            <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
-            <p>CBTC provides marketing support to bamboo Artisans and entrepreneurs.</p>
-        </div>
-        <div class="col-md-4 mt-3 col-lg-3"> <b>Training</b>
-            <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
-            <p>CBTC has been providing training to artisans and entrepreneurs.</p>
-        </div>
-        <div class="col-md-4 mt-3 col-lg-3"> <b>Networking</b>
-            <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
-            <p>CBTC partners with several national & international organizations.</p>
+        <br>
+        <div class="container p-2  text-center row " id="home2image">
+
+            <div class="col-md-4 mt-3 col-lg-3">
+                <b>Consultancy</b>
+                <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
+                <p>CBTC provides consultancy to entrepreneurs and organizations.</p>
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3"><b>Promotions</b>
+                <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
+                <p>CBTC provides marketing support to bamboo Artisans and entrepreneurs.</p>
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3"><b>Training</b>
+                <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
+                <p>CBTC has been providing training to artisans and entrepreneurs.</p>
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3"><b>Networking</b>
+                <img src="https://source.unsplash.com/collection/190727/1500x900" class="img-fluid" alt="image">
+                <p>CBTC partners with several national & international organizations.</p>
+            </div>
+            <h5 class="text-center"><a href="service" style="text-decoration: none">Read More...</a></h5>
+
         </div>
 
     </div>
 
-</div>
 <%@ include file="common/footer.jspf" %>
