@@ -2,7 +2,7 @@
 <!-- conent -->
 <div class="container-fluid  p-3 ">
     <h1 class="text-center"><b>About CBTC</b></h1>
-    <div class="container text-center"> <img src="img/cbtc-in-trade-fare.jpg" class="img-fluid" alt="image"> </div>
+    <div class="container text-center"><img src="img/cbtc-in-trade-fare.jpg" class="img-fluid" alt="image"></div>
     <br>
     <div class="container text-left">
         <p>Cane and Bamboo Technology Centre has facilitated the emergence of a new scenario in the North Eastern
@@ -32,19 +32,24 @@
         <ul class="">
             <li>To promote scientific development in the cane and bamboo sector.</li>
             <li>To provide skill upgradation and awareness to entrepreneurs, artisans, technicians, trainers and
-                others.</li>
-            <li>To promote employment and income generation activities in the cane and bamboo sector. </li>
+                others.
+            </li>
+            <li>To promote employment and income generation activities in the cane and bamboo sector.</li>
             <li>To source and develop relevant technologies inside and outside the country for enhancing the cane
-                and bamboo sector. </li>
+                and bamboo sector.
+            </li>
             <li>To develop the market and create market linkage for entrepreneurs and artisans in the north eastern
-                region.</li>
+                region.
+            </li>
             <li>To liaise with premier institutions, state governments and other bodies for taking the cane and
-                bamboo sector forward.</li>
+                bamboo sector forward.
+            </li>
             <li>To set up documentation centre and a data bank for referral.</li>
             <li>To provide consultancy services in the field of cane and bamboo.</li>
             <li>To encourage and participate in any other developmental activity.</li>
             <li>To create a Centre of Excellence which will promote the Cane and Bamboo Industry in the North
-                Eastern Region.</li>
+                Eastern Region.
+            </li>
         </ul>
     </div>
     <div class="container">
@@ -57,7 +62,8 @@
     </div>
     <div class="container text-center">
         <img src="img/mygov-2.jpg">
-    </div><br>
+    </div>
+    <br>
     <div class="container text-left">
         <p>Bamboo signifies passing on the inheritance of a environmentally cleaner and a healthy greener world to
             our future generations. The tall wonder grass keeps on generating solutions to our ever increasing needs

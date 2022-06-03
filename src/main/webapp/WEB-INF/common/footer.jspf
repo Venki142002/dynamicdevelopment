@@ -1,12 +1,21 @@
 <!-- footer -->
 <div class="container-fluid  p-3 text-center" style="  background-image: linear-gradient(#06beb6, #48b1bf) !important;">
 
-    <div class="text-center p-3">
-        venk2022 Copyright
-        <a class="text-white" href="https://mdbootstrap.com/">Webdevelopment</a>
+<%--    <div class="text-center p-3">--%>
+<%--        venk2022 Copyright--%>
+<%--        <a class="text-white" href="https://mdbootstrap.com/">Webdevelopment</a>--%>
+<%--    </div>--%>
+    <div class="social-footer-icons">
+        <ul class="container menusimple">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
     </div>
 
 </div>
+
 <script src="../../js/index.js" style="text-decoration:none;"></script>
 </body>
 </html>

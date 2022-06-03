@@ -1,7 +1,9 @@
-package com.venki.dynamicdevelopment.home;
+package com.venki.dynamicdevelopment.controller;
+
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -52,6 +54,14 @@ public class homeController {
     @RequestMapping("consultancy")
     public String consultancy() {
         return "consultancy";
+    }
+
+    @RequestMapping("insert")
+    @ResponseBody
+    public String inserta()
+    {
+
+        return "hi";
     }
 
 
