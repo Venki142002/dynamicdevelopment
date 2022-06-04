@@ -1,12 +1,24 @@
-<%@ include file="common/header.jspf" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+        <spring:url value="../css/reg.css" var="regCss"/>
+        <spring:url value="reg" var="form"/>
 
+        <spring:url value="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" var="regicon"/>
+        <link href="${regCss}" rel="stylesheet">
+        <link href="${regicon}" rel="stylesheet" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+        </head>
+<body>
 <div class="container">
     <header>
         <div class="header">
             <h2>CREATE ACCOUNT</h2>
         </div>
     </header>
-    <form id="forms" action="Registration" method="post">
+    <form id="forms" method="post">
         <div class="part1" >
             <div class="form_controller">
                 <label>USER NAME</label>
@@ -259,4 +271,5 @@ function blood(bld)
     return /^[A|B|AB|O][\\+|\\-][Ve|ve]/.test(bld);
 }
 </script>
-<%@ include file="common/footer.jspf" %>
+</body>
+</html>

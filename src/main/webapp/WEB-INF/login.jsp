@@ -1,6 +1,13 @@
-<%@ include file="common/header.jspf" %>
-
-<form id="forms" method="post">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<form id="forms" action="admin" method="post">
     <h1>LOGIN</h1>
     <div class="user">
         <i class="fas fa-user"></i>
@@ -18,7 +25,7 @@
         <button type="button"><a href="Registration"><b>REGISTER</b></a></button>
     </div>
 
-    <h4 style="color: white">${a}</h4>
+    <h4 class="text-danger" style="color: white">${a}</h4>
 </form>
 
 <script>
@@ -47,7 +54,7 @@
         if(u===1 && p===1)
         {
 
-            document.getElementById("forms").action = "login";
+            document.getElementById("forms").action = "admin";
             document.getElementById("forms").submit();
         }
 
@@ -61,4 +68,5 @@
         small.innerText = msg;
     }
 </script>
-<%@ include file="common/footer.jspf" %>
+</body>
+</html>

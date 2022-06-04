@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>DWD</title>
 </head>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <body>
 <!-- heading -->
 <div id="heading">
@@ -51,9 +54,6 @@
                             <a class="nav-link" href="aboutcbtc">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="history">HISTORY</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="partner">PARTNER</a>
                         </li>
                         <li class="nav-item">
@@ -62,36 +62,21 @@
                         <li class="nav-item">
                             <a class="nav-link" href="cbtcstaff">CBTC STAFF</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="service">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="consultancy">CONSULTANCY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="righttoinformation">RIGHT TO INFORMATION</a>
-                        </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="project">PROJECT</a>
+                    <a class="nav-link" href="history">HISTORY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="news">NEWS</a>
+                    <a class="nav-link" href="service">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tentors">TENTORS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resource">RESOURCE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contract">CONTACT</a>
+                    <a class="nav-link" href="consultancy">CONSULTANCY</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
+            <form action="search" method="post" class="d-flex">
+                <input class="form-control me-2" type="text" name="word" placeholder="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
             </form>
         </div>
     </div>

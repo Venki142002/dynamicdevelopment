@@ -11,16 +11,13 @@
         <td>Contact No/Mobile Number</td>
         </thead>
         <tbody style="border-style: none">
-        <%
-            for (int i = 1; i <= 10; i++) {
-
-        %>
+<c:forEach items="${staff}" var="paras">
         <tr>
-            <td>kishore</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
+            <td>${paras.content}</td>
+            <td>${paras.position}</td>
+            <td>${paras.contact}</td>
         </tr>
-        <%}%>
+</c:forEach>
         </tbody>
     </table>
 </div>

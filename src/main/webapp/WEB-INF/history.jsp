@@ -15,7 +15,7 @@
 
     <div class="container-fluid p-3 ">
         <h2><b>Seminar Summary</b></h2>
-        <p style="text-align: justify;">This Seminar was the first step of a UN system initiative aimed at
+        <p style="text-align: justify;" >This Seminar was the first step of a UN system initiative aimed at
             supporting the Government of India Bamboo Development Plan, announced by the Prime Minister on World
             Environment Day, 5 June 1999. It resulted from a visit, in March, Mr. Carlos Magarinos, Director General
             of UNIDO and was organized by the Ministry of Environment and Forests and UNIDO through a Regular budget
